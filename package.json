@@ -1,7 +1,7 @@
 {
   "name": "node-sp-auth-config",
   "description": "Config options builder for node-sp-auth (SharePoint Authentication in Node.js)",
-  "version": "2.6.1",
+  "version": "2.6.2",
   "main": "./dist/index.js",
   "typings": "./dist/index",
   "scripts": {
@@ -35,8 +35,7 @@
     "commander": "^2.19.0",
     "cpass": "^2.0.5",
     "inquirer": "^6.2.1",
-    "mkdirp": "^0.5.1",
-    "node-sp-auth": "Kperroch/node-sp-auth#master"
+    "mkdirp": "^0.5.1"
   },
   "devDependencies": {
     "@pnp/pnpjs": "^1.2.7",
