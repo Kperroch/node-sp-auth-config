@@ -8,6 +8,7 @@ export type StrategyCode =
   | 'OnpremiseTmgCredentials'
   | 'OnpremiseFbaCredentials'
   | 'OnlineAddinCredentials'
+  | 'OnlineAppCert'
   | 'UserCredentials'
   | 'AdfsUserCredentials'
   | 'OnDemandCredentials';

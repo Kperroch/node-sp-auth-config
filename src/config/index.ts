@@ -48,6 +48,14 @@ export const getStrategies = (): IStrategyDictItem[] => {
         return spauth.isAddinOnlyOnline(args[1]);
       }
     }, {
+      id: 'OnlineAppCert',
+      name: 'Add-In only permissions',
+      withPassword: true,
+      target: ['Online'],
+      verifyCallback: (...args: any[]) => {
+        return spauth.isAppCertOnline(args[1]);
+      }
+    }, {
       id: 'AdfsUserCredentials',
       name: 'ADFS user credentials',
       withPassword: true,
